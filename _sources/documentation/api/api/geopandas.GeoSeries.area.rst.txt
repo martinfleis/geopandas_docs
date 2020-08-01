@@ -1,0 +1,6 @@
+geopandas.GeoSeries.area
+========================
+
+.. currentmodule:: geopandas
+
+.. autoproperty:: GeoSeries.area

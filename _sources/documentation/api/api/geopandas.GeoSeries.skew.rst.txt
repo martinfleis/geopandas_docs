@@ -1,0 +1,6 @@
+geopandas.GeoSeries.skew
+========================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.skew

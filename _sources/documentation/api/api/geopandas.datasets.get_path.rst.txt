@@ -1,0 +1,6 @@
+geopandas.datasets.get\_path
+============================
+
+.. currentmodule:: geopandas.datasets
+
+.. autofunction:: get_path

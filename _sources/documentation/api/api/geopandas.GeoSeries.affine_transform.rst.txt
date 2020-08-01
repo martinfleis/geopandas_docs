@@ -1,0 +1,6 @@
+geopandas.GeoSeries.affine\_transform
+=====================================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.affine_transform

@@ -1,0 +1,14 @@
+
+:orphan:
+
+.. _sphx_glr_gallery_sg_execution_times:
+
+Computation times
+=================
+**00:34.268** total execution time for **gallery** files:
+
+- **00:16.788**: :ref:`sphx_glr_gallery_plotting_basemap_background.py` (``plotting_basemap_background.py``)
+- **00:13.662**: :ref:`sphx_glr_gallery_plotting_with_geoplot.py` (``plotting_with_geoplot.py``)
+- **00:02.390**: :ref:`sphx_glr_gallery_cartopy_convert.py` (``cartopy_convert.py``)
+- **00:01.075**: :ref:`sphx_glr_gallery_plot_clip.py` (``plot_clip.py``)
+- **00:00.352**: :ref:`sphx_glr_gallery_create_geopandas_from_pandas.py` (``create_geopandas_from_pandas.py``)

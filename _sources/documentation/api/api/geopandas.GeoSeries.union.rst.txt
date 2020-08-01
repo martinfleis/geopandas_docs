@@ -1,0 +1,6 @@
+geopandas.GeoSeries.union
+=========================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.union

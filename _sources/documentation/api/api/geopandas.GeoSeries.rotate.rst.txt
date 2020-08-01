@@ -1,0 +1,6 @@
+geopandas.GeoSeries.rotate
+==========================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.rotate

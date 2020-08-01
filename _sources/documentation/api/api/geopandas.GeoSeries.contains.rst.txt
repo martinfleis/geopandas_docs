@@ -1,0 +1,6 @@
+geopandas.GeoSeries.contains
+============================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.contains

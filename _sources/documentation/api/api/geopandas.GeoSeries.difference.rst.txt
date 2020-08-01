@@ -1,0 +1,6 @@
+geopandas.GeoSeries.difference
+==============================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.difference

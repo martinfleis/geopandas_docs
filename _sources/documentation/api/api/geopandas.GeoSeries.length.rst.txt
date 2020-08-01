@@ -1,0 +1,6 @@
+geopandas.GeoSeries.length
+==========================
+
+.. currentmodule:: geopandas
+
+.. autoproperty:: GeoSeries.length

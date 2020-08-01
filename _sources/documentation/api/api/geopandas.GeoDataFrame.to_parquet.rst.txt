@@ -1,0 +1,6 @@
+geopandas.GeoDataFrame.to\_parquet
+==================================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoDataFrame.to_parquet

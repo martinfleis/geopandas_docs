@@ -1,0 +1,6 @@
+geopandas.testing.geom\_almost\_equals
+======================================
+
+.. currentmodule:: geopandas.testing
+
+.. autofunction:: geom_almost_equals

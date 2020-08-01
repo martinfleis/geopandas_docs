@@ -1,0 +1,6 @@
+geopandas.points\_from\_xy
+==========================
+
+.. currentmodule:: geopandas
+
+.. autofunction:: points_from_xy
