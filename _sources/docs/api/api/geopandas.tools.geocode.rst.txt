@@ -1,0 +1,6 @@
+geopandas.tools.geocode
+=======================
+
+.. currentmodule:: geopandas.tools
+
+.. autofunction:: geocode

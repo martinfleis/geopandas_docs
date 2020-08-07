@@ -1,0 +1,6 @@
+geopandas.GeoSeries.boundary
+============================
+
+.. currentmodule:: geopandas
+
+.. autoproperty:: GeoSeries.boundary

@@ -1,0 +1,6 @@
+geopandas.GeoSeries.convex\_hull
+================================
+
+.. currentmodule:: geopandas
+
+.. autoproperty:: GeoSeries.convex_hull

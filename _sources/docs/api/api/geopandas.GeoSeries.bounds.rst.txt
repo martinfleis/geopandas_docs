@@ -1,0 +1,6 @@
+geopandas.GeoSeries.bounds
+==========================
+
+.. currentmodule:: geopandas
+
+.. autoproperty:: GeoSeries.bounds

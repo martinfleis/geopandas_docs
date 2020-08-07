@@ -1,0 +1,6 @@
+geopandas.GeoSeries.within
+==========================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.within

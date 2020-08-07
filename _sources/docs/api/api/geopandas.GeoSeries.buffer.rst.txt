@@ -1,0 +1,6 @@
+geopandas.GeoSeries.buffer
+==========================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.buffer

@@ -1,0 +1,6 @@
+geopandas.GeoSeries.distance
+============================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.distance

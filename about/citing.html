@@ -5,18 +5,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Citing &#8212; GeoPandas 0.8.0+21.g763c08c documentation</title>
+    <title>Citing &#8212; GeoPandas 0.8.0+28.g70986c0.dirty documentation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/mystnb.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
     <link rel="author" title="About these documents" href="../about.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -56,7 +64,7 @@
         </li>
         
         <li class="nav-item ">
-            <a class="nav-link" href="../documentation.html">Documentation</a>
+            <a class="nav-link" href="../docs.html">Documentation</a>
         </li>
         
         <li class="nav-item ">
@@ -172,7 +180,50 @@
                 
   <div class="section" id="citing">
 <h1>Citing<a class="headerlink" href="#citing" title="Permalink to this headline">¶</a></h1>
-<p>Text</p>
+<p>When citing GeoPandas, you can use <a class="reference external" href="https://zenodo.org/record/3946761#.Xy24LC2ZPOQ">Zenodo DOI</a> for each release.
+Below is the example of resulting BiBTeX record for GeoPandas 0.8.1 and a reference using APA 6<sup>th</sup> ed.</p>
+<p><em>Kelsey Jordahl, Joris Van den Bossche, Martin Fleischmann, Jacob Wasserman, James McBride, Jeffrey Gerard, … François Leblanc. (2020, July 15). geopandas/geopandas: v0.8.1 (Version v0.8.1). Zenodo. http://doi.org/10.5281/zenodo.3946761</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@software</span><span class="p">{</span><span class="n">kelsey_jordahl_2020_3946761</span><span class="p">,</span>
+  <span class="n">author</span>       <span class="o">=</span> <span class="p">{</span><span class="n">Kelsey</span> <span class="n">Jordahl</span> <span class="ow">and</span>
+                  <span class="n">Joris</span> <span class="n">Van</span> <span class="n">den</span> <span class="n">Bossche</span> <span class="ow">and</span>
+                  <span class="n">Martin</span> <span class="n">Fleischmann</span> <span class="ow">and</span>
+                  <span class="n">Jacob</span> <span class="n">Wasserman</span> <span class="ow">and</span>
+                  <span class="n">James</span> <span class="n">McBride</span> <span class="ow">and</span>
+                  <span class="n">Jeffrey</span> <span class="n">Gerard</span> <span class="ow">and</span>
+                  <span class="n">Jeff</span> <span class="n">Tratner</span> <span class="ow">and</span>
+                  <span class="n">Matthew</span> <span class="n">Perry</span> <span class="ow">and</span>
+                  <span class="n">Adrian</span> <span class="n">Garcia</span> <span class="n">Badaracco</span> <span class="ow">and</span>
+                  <span class="n">Carson</span> <span class="n">Farmer</span> <span class="ow">and</span>
+                  <span class="n">Geir</span> <span class="n">Arne</span> <span class="n">Hjelle</span> <span class="ow">and</span>
+                  <span class="n">Alan</span> <span class="n">D</span><span class="o">.</span> <span class="n">Snow</span> <span class="ow">and</span>
+                  <span class="n">Micah</span> <span class="n">Cochran</span> <span class="ow">and</span>
+                  <span class="n">Sean</span> <span class="n">Gillies</span> <span class="ow">and</span>
+                  <span class="n">Lucas</span> <span class="n">Culbertson</span> <span class="ow">and</span>
+                  <span class="n">Matt</span> <span class="n">Bartos</span> <span class="ow">and</span>
+                  <span class="n">Nick</span> <span class="n">Eubank</span> <span class="ow">and</span>
+                  <span class="n">maxalbert</span> <span class="ow">and</span>
+                  <span class="n">Aleksey</span> <span class="n">Bilogur</span> <span class="ow">and</span>
+                  <span class="n">Sergio</span> <span class="n">Rey</span> <span class="ow">and</span>
+                  <span class="n">Christopher</span> <span class="n">Ren</span> <span class="ow">and</span>
+                  <span class="n">Dani</span> <span class="n">Arribas</span><span class="o">-</span><span class="n">Bel</span> <span class="ow">and</span>
+                  <span class="n">Leah</span> <span class="n">Wasser</span> <span class="ow">and</span>
+                  <span class="n">Levi</span> <span class="n">John</span> <span class="n">Wolf</span> <span class="ow">and</span>
+                  <span class="n">Martin</span> <span class="n">Journois</span> <span class="ow">and</span>
+                  <span class="n">Joshua</span> <span class="n">Wilson</span> <span class="ow">and</span>
+                  <span class="n">Adam</span> <span class="n">Greenhall</span> <span class="ow">and</span>
+                  <span class="n">Chris</span> <span class="n">Holdgraf</span> <span class="ow">and</span>
+                  <span class="n">Filipe</span> <span class="ow">and</span>
+                  <span class="n">François</span> <span class="n">Leblanc</span><span class="p">},</span>
+  <span class="n">title</span>        <span class="o">=</span> <span class="p">{</span><span class="n">geopandas</span><span class="o">/</span><span class="n">geopandas</span><span class="p">:</span> <span class="n">v0</span><span class="o">.</span><span class="mf">8.1</span><span class="p">},</span>
+  <span class="n">month</span>        <span class="o">=</span> <span class="n">jul</span><span class="p">,</span>
+  <span class="n">year</span>         <span class="o">=</span> <span class="mi">2020</span><span class="p">,</span>
+  <span class="n">publisher</span>    <span class="o">=</span> <span class="p">{</span><span class="n">Zenodo</span><span class="p">},</span>
+  <span class="n">version</span>      <span class="o">=</span> <span class="p">{</span><span class="n">v0</span><span class="o">.</span><span class="mf">8.1</span><span class="p">},</span>
+  <span class="n">doi</span>          <span class="o">=</span> <span class="p">{</span><span class="mf">10.5281</span><span class="o">/</span><span class="n">zenodo</span><span class="o">.</span><span class="mi">3946761</span><span class="p">},</span>
+  <span class="n">url</span>          <span class="o">=</span> <span class="p">{</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.5281</span><span class="o">/</span><span class="n">zenodo</span><span class="o">.</span><span class="mi">3946761</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 </div>
 
 

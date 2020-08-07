@@ -1,0 +1,6 @@
+geopandas.read\_parquet
+=======================
+
+.. currentmodule:: geopandas
+
+.. autofunction:: read_parquet

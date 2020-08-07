@@ -1,0 +1,6 @@
+geopandas.GeoSeries.notna
+=========================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.notna

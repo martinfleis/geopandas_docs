@@ -1,0 +1,6 @@
+geopandas.GeoDataFrame.crs
+==========================
+
+.. currentmodule:: geopandas
+
+.. autoproperty:: GeoDataFrame.crs

@@ -1,0 +1,6 @@
+geopandas.GeoDataFrame.explode
+==============================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoDataFrame.explode

@@ -1,0 +1,6 @@
+geopandas.GeoSeries.simplify
+============================
+
+.. currentmodule:: geopandas
+
+.. automethod:: GeoSeries.simplify
