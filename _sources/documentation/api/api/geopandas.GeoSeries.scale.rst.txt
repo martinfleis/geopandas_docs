@@ -1,6 +1,0 @@
-geopandas.GeoSeries.scale
-=========================
-
-.. currentmodule:: geopandas
-
-.. automethod:: GeoSeries.scale

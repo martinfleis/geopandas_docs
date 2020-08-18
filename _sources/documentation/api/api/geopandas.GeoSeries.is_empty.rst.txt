@@ -1,6 +1,0 @@
-geopandas.GeoSeries.is\_empty
-=============================
-
-.. currentmodule:: geopandas
-
-.. autoproperty:: GeoSeries.is_empty

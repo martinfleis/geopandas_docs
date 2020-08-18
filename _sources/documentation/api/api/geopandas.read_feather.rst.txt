@@ -1,6 +1,0 @@
-geopandas.read\_feather
-=======================
-
-.. currentmodule:: geopandas
-
-.. autofunction:: read_feather

@@ -1,6 +1,0 @@
-geopandas.tools.collect
-=======================
-
-.. currentmodule:: geopandas.tools
-
-.. autofunction:: collect

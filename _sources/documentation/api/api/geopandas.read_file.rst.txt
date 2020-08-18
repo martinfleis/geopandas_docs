@@ -1,6 +1,0 @@
-geopandas.read\_file
-====================
-
-.. currentmodule:: geopandas
-
-.. autofunction:: read_file

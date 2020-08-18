@@ -1,6 +1,0 @@
-geopandas.sjoin
-===============
-
-.. currentmodule:: geopandas
-
-.. autofunction:: sjoin

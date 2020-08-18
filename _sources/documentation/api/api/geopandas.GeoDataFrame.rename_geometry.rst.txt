@@ -1,6 +1,0 @@
-geopandas.GeoDataFrame.rename\_geometry
-=======================================
-
-.. currentmodule:: geopandas
-
-.. automethod:: GeoDataFrame.rename_geometry

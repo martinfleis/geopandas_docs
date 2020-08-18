@@ -1,6 +1,0 @@
-geopandas.clip
-==============
-
-.. currentmodule:: geopandas
-
-.. autofunction:: clip

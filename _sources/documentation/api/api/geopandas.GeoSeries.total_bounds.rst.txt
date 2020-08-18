@@ -1,6 +1,0 @@
-geopandas.GeoSeries.total\_bounds
-=================================
-
-.. currentmodule:: geopandas
-
-.. autoproperty:: GeoSeries.total_bounds

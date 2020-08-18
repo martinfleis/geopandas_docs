@@ -1,6 +1,0 @@
-geopandas.GeoDataFrame.from\_file
-=================================
-
-.. currentmodule:: geopandas
-
-.. automethod:: GeoDataFrame.from_file

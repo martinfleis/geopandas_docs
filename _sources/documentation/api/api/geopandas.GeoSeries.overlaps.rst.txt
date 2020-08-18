@@ -1,6 +1,0 @@
-geopandas.GeoSeries.overlaps
-============================
-
-.. currentmodule:: geopandas
-
-.. automethod:: GeoSeries.overlaps

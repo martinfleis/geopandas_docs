@@ -1,6 +1,0 @@
-geopandas.GeoSeries.centroid
-============================
-
-.. currentmodule:: geopandas
-
-.. autoproperty:: GeoSeries.centroid

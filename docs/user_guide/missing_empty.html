@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Missing and empty geometries &#8212; GeoPandas 0.8.0+31.g33f6d30 documentation</title>
+    <title>Missing and empty geometries &#8212; GeoPandas 0.8.1 documentation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
@@ -289,7 +289,7 @@ and the result will depend on the operation:</p>
 <span class="n">dtype</span><span class="p">:</span> <span class="n">geometry</span>
 </pre></div>
 </div>
-<p>The <a class="reference internal" href="../api/api/geopandas.GeoSeries.isna.html#geopandas.GeoSeries.isna" title="geopandas.GeoSeries.isna"><code class="xref py py-meth docutils literal notranslate"><span class="pre">GeoSeries.isna()</span></code></a> method will only check for missing values and not
+<p>The <a class="reference internal" href="../reference/geoseries/geopandas.GeoSeries.isna.html#geopandas.GeoSeries.isna" title="geopandas.GeoSeries.isna"><code class="xref py py-meth docutils literal notranslate"><span class="pre">GeoSeries.isna()</span></code></a> method will only check for missing values and not
 for empty geometries:</p>
 <div class="highlight-ipython notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">7</span><span class="p">]:</span> <span class="n">s</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span>
 <span class="n">Out</span><span class="p">[</span><span class="mi">7</span><span class="p">]:</span> 
@@ -300,7 +300,7 @@ for empty geometries:</p>
 </pre></div>
 </div>
 <p>On the other hand, if you want to know which values are empty geometries,
-you can use the <a class="reference internal" href="../api/api/geopandas.GeoSeries.is_empty.html#geopandas.GeoSeries.is_empty" title="geopandas.GeoSeries.is_empty"><code class="xref py py-attr docutils literal notranslate"><span class="pre">GeoSeries.is_empty</span></code></a> attribute:</p>
+you can use the <a class="reference internal" href="../reference/geoseries/geopandas.GeoSeries.is_empty.html#geopandas.GeoSeries.is_empty" title="geopandas.GeoSeries.is_empty"><code class="xref py py-attr docutils literal notranslate"><span class="pre">GeoSeries.is_empty</span></code></a> attribute:</p>
 <div class="highlight-ipython notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">8</span><span class="p">]:</span> <span class="n">s</span><span class="o">.</span><span class="n">is_empty</span>
 <span class="n">Out</span><span class="p">[</span><span class="mi">8</span><span class="p">]:</span> 
 <span class="mi">0</span>    <span class="kc">False</span>
@@ -330,11 +330,11 @@ you can use a combination of both:</p>
 consistent across the library.</p>
 <p>Historically, missing (“NA”) values in a GeoSeries could be represented by empty
 geometric objects, in addition to standard representations such as <code class="docutils literal notranslate"><span class="pre">None</span></code> and
-<code class="docutils literal notranslate"><span class="pre">np.nan</span></code>. At least, this was the case in <a class="reference internal" href="../api/api/geopandas.GeoSeries.isna.html#geopandas.GeoSeries.isna" title="geopandas.GeoSeries.isna"><code class="xref py py-meth docutils literal notranslate"><span class="pre">GeoSeries.isna()</span></code></a> or when a
+<code class="docutils literal notranslate"><span class="pre">np.nan</span></code>. At least, this was the case in <a class="reference internal" href="../reference/geoseries/geopandas.GeoSeries.isna.html#geopandas.GeoSeries.isna" title="geopandas.GeoSeries.isna"><code class="xref py py-meth docutils literal notranslate"><span class="pre">GeoSeries.isna()</span></code></a> or when a
 GeoSeries got aligned in geospatial operations. But, other methods like
-<code class="xref py py-meth docutils literal notranslate"><span class="pre">dropna()</span></code> and <a class="reference internal" href="../api/api/geopandas.GeoSeries.fillna.html#geopandas.GeoSeries.fillna" title="geopandas.GeoSeries.fillna"><code class="xref py py-meth docutils literal notranslate"><span class="pre">fillna()</span></code></a> did not follow this
+<code class="xref py py-meth docutils literal notranslate"><span class="pre">dropna()</span></code> and <a class="reference internal" href="../reference/geoseries/geopandas.GeoSeries.fillna.html#geopandas.GeoSeries.fillna" title="geopandas.GeoSeries.fillna"><code class="xref py py-meth docutils literal notranslate"><span class="pre">fillna()</span></code></a> did not follow this
 approach and did not consider empty geometries as missing.</p>
-<p>In GeoPandas v0.6.0, the most important change is <a class="reference internal" href="../api/api/geopandas.GeoSeries.isna.html#geopandas.GeoSeries.isna" title="geopandas.GeoSeries.isna"><code class="xref py py-meth docutils literal notranslate"><span class="pre">GeoSeries.isna()</span></code></a> no
+<p>In GeoPandas v0.6.0, the most important change is <a class="reference internal" href="../reference/geoseries/geopandas.GeoSeries.isna.html#geopandas.GeoSeries.isna" title="geopandas.GeoSeries.isna"><code class="xref py py-meth docutils literal notranslate"><span class="pre">GeoSeries.isna()</span></code></a> no
 longer treating empty as missing:</p>
 <ul>
 <li><p>Using the small example from above, the old behaviour treated both the

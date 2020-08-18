@@ -1,6 +1,0 @@
-geopandas.GeoSeries.envelope
-============================
-
-.. currentmodule:: geopandas
-
-.. autoproperty:: GeoSeries.envelope

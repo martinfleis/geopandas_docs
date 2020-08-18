@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Clip Vector Data with GeoPandas &#8212; GeoPandas 0.8.0+31.g33f6d30 documentation</title>
+    <title>Clip Vector Data with GeoPandas &#8212; GeoPandas 0.8.1 documentation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
@@ -234,7 +234,7 @@ using GeoPandas.</p>
 <p>The example below shows you how to clip a set of vector geometries
 to the spatial extent / shape of another vector object. Both sets of geometries
 must be opened with GeoPandas as GeoDataFrames and be in the same Coordinate
-Reference System (CRS) for the <a class="reference internal" href="../docs/api/api/geopandas.clip.html#geopandas.clip" title="geopandas.clip"><code class="xref py py-func docutils literal notranslate"><span class="pre">clip()</span></code></a> function in GeoPandas to work.</p>
+Reference System (CRS) for the <a class="reference internal" href="../docs/reference/tools/geopandas.clip.html#geopandas.clip" title="geopandas.clip"><code class="xref py py-func docutils literal notranslate"><span class="pre">clip()</span></code></a> function in GeoPandas to work.</p>
 <p>This example uses GeoPandas example data <code class="docutils literal notranslate"><span class="pre">'naturalearth_cities'</span></code> and
 <code class="docutils literal notranslate"><span class="pre">'naturalearth_lowres'</span></code>, alongside a custom rectangle geometry made with
 shapely and then turned into a GeoDataFrame.</p>
@@ -288,15 +288,15 @@ GeoDataFrame with the same CRS as the GeoPandas world dataset.</p>
 </div>
 <div class="section" id="clip-the-data">
 <h2>Clip the Data<a class="headerlink" href="#clip-the-data" title="Permalink to this headline">¶</a></h2>
-<p>When you call <a class="reference internal" href="../docs/api/api/geopandas.clip.html#geopandas.clip" title="geopandas.clip"><code class="xref py py-func docutils literal notranslate"><span class="pre">clip()</span></code></a>, the first object called is the object that will
+<p>When you call <a class="reference internal" href="../docs/reference/tools/geopandas.clip.html#geopandas.clip" title="geopandas.clip"><code class="xref py py-func docutils literal notranslate"><span class="pre">clip()</span></code></a>, the first object called is the object that will
 be clipped. The second object called is the clip extent. The returned output
 will be a new clipped GeoDataframe. All of the attributes for each returned
 geometry will be retained when you clip.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Recall that the data must be in the same CRS in order to use the
-<a class="reference internal" href="../docs/api/api/geopandas.clip.html#geopandas.clip" title="geopandas.clip"><code class="xref py py-func docutils literal notranslate"><span class="pre">clip()</span></code></a> function. If the data are not in the same CRS, be sure to use
-the GeoPandas <a class="reference internal" href="../docs/api/api/geopandas.GeoDataFrame.to_crs.html#geopandas.GeoDataFrame.to_crs" title="geopandas.GeoDataFrame.to_crs"><code class="xref py py-meth docutils literal notranslate"><span class="pre">to_crs()</span></code></a> method to ensure both datasets
+<a class="reference internal" href="../docs/reference/tools/geopandas.clip.html#geopandas.clip" title="geopandas.clip"><code class="xref py py-func docutils literal notranslate"><span class="pre">clip()</span></code></a> function. If the data are not in the same CRS, be sure to use
+the GeoPandas <a class="reference internal" href="../docs/reference/geodataframe/geopandas.GeoDataFrame.to_crs.html#geopandas.GeoDataFrame.to_crs" title="geopandas.GeoDataFrame.to_crs"><code class="xref py py-meth docutils literal notranslate"><span class="pre">to_crs()</span></code></a> method to ensure both datasets
 are in the same CRS.</p>
 </div>
 </div>

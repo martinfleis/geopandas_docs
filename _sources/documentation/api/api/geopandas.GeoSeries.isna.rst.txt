@@ -1,6 +1,0 @@
-geopandas.GeoSeries.isna
-========================
-
-.. currentmodule:: geopandas
-
-.. automethod:: GeoSeries.isna

@@ -1,6 +1,0 @@
-geopandas.GeoSeries.is\_simple
-==============================
-
-.. currentmodule:: geopandas
-
-.. autoproperty:: GeoSeries.is_simple

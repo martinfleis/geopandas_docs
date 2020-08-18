@@ -1,6 +1,0 @@
-geopandas.GeoSeries.disjoint
-============================
-
-.. currentmodule:: geopandas
-
-.. automethod:: GeoSeries.disjoint

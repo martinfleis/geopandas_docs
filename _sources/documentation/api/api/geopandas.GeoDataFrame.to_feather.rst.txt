@@ -1,6 +1,0 @@
-geopandas.GeoDataFrame.to\_feather
-==================================
-
-.. currentmodule:: geopandas
-
-.. automethod:: GeoDataFrame.to_feather

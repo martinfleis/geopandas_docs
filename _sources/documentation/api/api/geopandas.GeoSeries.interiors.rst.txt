@@ -1,6 +1,0 @@
-geopandas.GeoSeries.interiors
-=============================
-
-.. currentmodule:: geopandas
-
-.. autoproperty:: GeoSeries.interiors
