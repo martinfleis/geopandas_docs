@@ -277,9 +277,9 @@ use of the great <a class="reference external" href="http://fiona.readthedocs.io
 library, which in turn makes use of a massive open-source program called
 <a class="reference external" href="http://www.gdal.org/">GDAL/OGR</a> designed to facilitate spatial data
 transformations.</p>
-<p>Any arguments passed to <a class="reference internal" href="../reference/io/geopandas.read_file.html#geopandas.read_file" title="geopandas.read_file"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_file()</span></code></a> after the file name will be
+<p>Any arguments passed to <a class="reference internal" href="../reference/api/geopandas.read_file.html#geopandas.read_file" title="geopandas.read_file"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_file()</span></code></a> after the file name will be
 passed directly to <code class="docutils literal notranslate"><span class="pre">fiona.open</span></code>, which does the actual data importation. In
-general, <a class="reference internal" href="../reference/io/geopandas.read_file.html#geopandas.read_file" title="geopandas.read_file"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_file()</span></code></a> is pretty smart and should do what you want
+general, <a class="reference internal" href="../reference/api/geopandas.read_file.html#geopandas.read_file" title="geopandas.read_file"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_file()</span></code></a> is pretty smart and should do what you want
 without extra arguments, but for more help, type:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">fiona</span><span class="p">;</span> <span class="n">help</span><span class="p">(</span><span class="n">fiona</span><span class="o">.</span><span class="n">open</span><span class="p">)</span>
 </pre></div>
@@ -327,7 +327,7 @@ as a file handler (e.g. via built-in <code class="docutils literal notranslate">
 <h3>Reading subsets of the data<a class="headerlink" href="#reading-subsets-of-the-data" title="Permalink to this headline">¶</a></h3>
 <p>Since geopandas is powered by Fiona, which is powered by GDAL, you can take advantage of
 pre-filtering when loading in larger datasets. This can be done geospatially with a geometry
-or bounding box. You can also filter rows loaded with a slice. Read more at <a class="reference internal" href="../reference/io/geopandas.read_file.html#geopandas.read_file" title="geopandas.read_file"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_file()</span></code></a>.</p>
+or bounding box. You can also filter rows loaded with a slice. Read more at <a class="reference internal" href="../reference/api/geopandas.read_file.html#geopandas.read_file" title="geopandas.read_file"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_file()</span></code></a>.</p>
 <div class="section" id="geometry-filter">
 <h4>Geometry Filter<a class="headerlink" href="#geometry-filter" title="Permalink to this headline">¶</a></h4>
 <div class="versionadded">
@@ -412,10 +412,10 @@ or a slice object.</p>
 <div class="section" id="writing-spatial-data">
 <h2>Writing Spatial Data<a class="headerlink" href="#writing-spatial-data" title="Permalink to this headline">¶</a></h2>
 <p>GeoDataFrames can be exported to many different standard formats using the
-<a class="reference internal" href="../reference/geodataframe/geopandas.GeoDataFrame.to_file.html#geopandas.GeoDataFrame.to_file" title="geopandas.GeoDataFrame.to_file"><code class="xref py py-meth docutils literal notranslate"><span class="pre">geopandas.GeoDataFrame.to_file()</span></code></a> method.
+<a class="reference internal" href="../reference/api/geopandas.GeoDataFrame.to_file.html#geopandas.GeoDataFrame.to_file" title="geopandas.GeoDataFrame.to_file"><code class="xref py py-meth docutils literal notranslate"><span class="pre">geopandas.GeoDataFrame.to_file()</span></code></a> method.
 For a full list of supported formats, type <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">fiona;</span> <span class="pre">fiona.supported_drivers</span></code>.</p>
 <p>In addition, GeoDataFrames can be uploaded to <a class="reference external" href="https://postgis.net/">PostGIS</a> database (starting with GeoPandas 0.8)
-by using the <a class="reference internal" href="../reference/geodataframe/geopandas.GeoDataFrame.to_postgis.html#geopandas.GeoDataFrame.to_postgis" title="geopandas.GeoDataFrame.to_postgis"><code class="xref py py-meth docutils literal notranslate"><span class="pre">geopandas.GeoDataFrame.to_postgis()</span></code></a> method.</p>
+by using the <a class="reference internal" href="../reference/api/geopandas.GeoDataFrame.to_postgis.html#geopandas.GeoDataFrame.to_postgis" title="geopandas.GeoDataFrame.to_postgis"><code class="xref py py-meth docutils literal notranslate"><span class="pre">geopandas.GeoDataFrame.to_postgis()</span></code></a> method.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>GeoDataFrame can contain more field types than supported by most of the file formats. For example tuples or lists
@@ -439,7 +439,7 @@ Before saving to a file, they need to be converted to a format supported by a se
 <div class="section" id="spatial-databases">
 <h2>Spatial databases<a class="headerlink" href="#spatial-databases" title="Permalink to this headline">¶</a></h2>
 <p><em>geopandas</em> can also get data from a PostGIS database using the
-<a class="reference internal" href="../reference/io/geopandas.read_postgis.html#geopandas.read_postgis" title="geopandas.read_postgis"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_postgis()</span></code></a> command.</p>
+<a class="reference internal" href="../reference/api/geopandas.read_postgis.html#geopandas.read_postgis" title="geopandas.read_postgis"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_postgis()</span></code></a> command.</p>
 <p>Writing to PostGIS:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sqlalchemy</span> <span class="kn">import</span> <span class="n">create_engine</span>
 <span class="n">db_connection_url</span> <span class="o">=</span> <span class="s2">&quot;postgres://myusername:mypassword@myhost:5432/mydatabase&quot;</span><span class="p">;</span>
@@ -460,7 +460,7 @@ storage format (originating from the Hadoop ecosystem). It is a widely used
 binary file format for tabular data. The Feather file format is the on-disk
 representation of the <a class="reference external" href="https://arrow.apache.org/">Apache Arrow</a> memory
 format, an open standard for in-memory columnar data.</p>
-<p>The <a class="reference internal" href="../reference/io/geopandas.read_parquet.html#geopandas.read_parquet" title="geopandas.read_parquet"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_parquet()</span></code></a>, <a class="reference internal" href="../reference/io/geopandas.read_feather.html#geopandas.read_feather" title="geopandas.read_feather"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_feather()</span></code></a>,
+<p>The <a class="reference internal" href="../reference/api/geopandas.read_parquet.html#geopandas.read_parquet" title="geopandas.read_parquet"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_parquet()</span></code></a>, <a class="reference internal" href="../reference/api/geopandas.read_feather.html#geopandas.read_feather" title="geopandas.read_feather"><code class="xref py py-func docutils literal notranslate"><span class="pre">geopandas.read_feather()</span></code></a>,
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">GeoDataFrame.to_parquet()</span></code> and <code class="xref py py-meth docutils literal notranslate"><span class="pre">GeoDataFrame.to_feather()</span></code> methods
 enable fast roundtrip from GeoPandas to those binary file formats, preserving
 the spatial information.</p>

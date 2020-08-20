@@ -28,8 +28,8 @@
     <link rel="author" title="About these documents" href="../../about.html" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="geopandas.read_file" href="io/geopandas.read_file.html" />
-    <link rel="prev" title="geopandas.GeoDataFrame.__geo_interface__" href="geodataframe/geopandas.GeoDataFrame.__geo_interface__.html" />
+    <link rel="next" title="geopandas.read_file" href="api/geopandas.read_file.html" />
+    <link rel="prev" title="geopandas.GeoDataFrame.__geo_interface__" href="api/geopandas.GeoDataFrame.__geo_interface__.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
   </head>
@@ -225,18 +225,10 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="io/geopandas.read_file.html#geopandas.read_file" title="geopandas.read_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_file</span></code></a>(filename[, bbox, mask, rows])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="api/geopandas.read_file.html#geopandas.read_file" title="geopandas.read_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_file</span></code></a>(filename[, bbox, mask, rows])</p></td>
 <td><p>Returns a GeoDataFrame from a file or URL.</p></td>
 </tr>
-</tbody>
-</table>
-<table class="longtable table">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="geodataframe/geopandas.GeoDataFrame.to_file.html#geopandas.GeoDataFrame.to_file" title="geopandas.GeoDataFrame.to_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeoDataFrame.to_file</span></code></a>(self, filename[, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="api/geopandas.GeoDataFrame.to_file.html#geopandas.GeoDataFrame.to_file" title="geopandas.GeoDataFrame.to_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeoDataFrame.to_file</span></code></a>(self, filename[, …])</p></td>
 <td><p>Write the <code class="docutils literal notranslate"><span class="pre">GeoDataFrame</span></code> to a file.</p></td>
 </tr>
 </tbody>
@@ -250,18 +242,10 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="io/geopandas.read_postgis.html#geopandas.read_postgis" title="geopandas.read_postgis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_postgis</span></code></a>(sql, con[, geom_col, crs, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="api/geopandas.read_postgis.html#geopandas.read_postgis" title="geopandas.read_postgis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_postgis</span></code></a>(sql, con[, geom_col, crs, …])</p></td>
 <td><p>Returns a GeoDataFrame corresponding to the result of the query string, which must contain a geometry column in WKB representation.</p></td>
 </tr>
-</tbody>
-</table>
-<table class="longtable table">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="geodataframe/geopandas.GeoDataFrame.to_postgis.html#geopandas.GeoDataFrame.to_postgis" title="geopandas.GeoDataFrame.to_postgis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeoDataFrame.to_postgis</span></code></a>(self, name, con[, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="api/geopandas.GeoDataFrame.to_postgis.html#geopandas.GeoDataFrame.to_postgis" title="geopandas.GeoDataFrame.to_postgis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeoDataFrame.to_postgis</span></code></a>(self, name, con[, …])</p></td>
 <td><p>Upload GeoDataFrame into PostGIS database.</p></td>
 </tr>
 </tbody>
@@ -275,18 +259,10 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="io/geopandas.read_feather.html#geopandas.read_feather" title="geopandas.read_feather"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_feather</span></code></a>(path[, columns])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="api/geopandas.read_feather.html#geopandas.read_feather" title="geopandas.read_feather"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_feather</span></code></a>(path[, columns])</p></td>
 <td><p>Load a Feather object from the file path, returning a GeoDataFrame.</p></td>
 </tr>
-</tbody>
-</table>
-<table class="longtable table">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="geodataframe/geopandas.GeoDataFrame.to_feather.html#geopandas.GeoDataFrame.to_feather" title="geopandas.GeoDataFrame.to_feather"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeoDataFrame.to_feather</span></code></a>(self, path[, index, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="api/geopandas.GeoDataFrame.to_feather.html#geopandas.GeoDataFrame.to_feather" title="geopandas.GeoDataFrame.to_feather"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeoDataFrame.to_feather</span></code></a>(self, path[, index, …])</p></td>
 <td><p>Write a GeoDataFrame to the Feather format.</p></td>
 </tr>
 </tbody>
@@ -300,18 +276,10 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="io/geopandas.read_parquet.html#geopandas.read_parquet" title="geopandas.read_parquet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_parquet</span></code></a>(path[, columns])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="api/geopandas.read_parquet.html#geopandas.read_parquet" title="geopandas.read_parquet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_parquet</span></code></a>(path[, columns])</p></td>
 <td><p>Load a Parquet object from the file path, returning a GeoDataFrame.</p></td>
 </tr>
-</tbody>
-</table>
-<table class="longtable table">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="geodataframe/geopandas.GeoDataFrame.to_parquet.html#geopandas.GeoDataFrame.to_parquet" title="geopandas.GeoDataFrame.to_parquet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeoDataFrame.to_parquet</span></code></a>(self, path[, index, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="api/geopandas.GeoDataFrame.to_parquet.html#geopandas.GeoDataFrame.to_parquet" title="geopandas.GeoDataFrame.to_parquet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeoDataFrame.to_parquet</span></code></a>(self, path[, index, …])</p></td>
 <td><p>Write a GeoDataFrame to the Parquet format.</p></td>
 </tr>
 </tbody>
@@ -325,8 +293,8 @@
               
               <div class='prev-next-bottom'>
                 
-    <a class='left-prev' id="prev-link" href="geodataframe/geopandas.GeoDataFrame.__geo_interface__.html" title="previous page">geopandas.GeoDataFrame.__geo_interface__</a>
-    <a class='right-next' id="next-link" href="io/geopandas.read_file.html" title="next page">geopandas.read_file</a>
+    <a class='left-prev' id="prev-link" href="api/geopandas.GeoDataFrame.__geo_interface__.html" title="previous page">geopandas.GeoDataFrame.__geo_interface__</a>
+    <a class='right-next' id="next-link" href="api/geopandas.read_file.html" title="next page">geopandas.read_file</a>
 
               </div>
               
